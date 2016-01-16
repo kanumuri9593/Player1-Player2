@@ -12,6 +12,16 @@
 		12CB3B531C2AFB77001C9662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CB3B511C2AFB77001C9662 /* Main.storyboard */; };
 		12CB3B551C2AFB77001C9662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CB3B541C2AFB77001C9662 /* Assets.xcassets */; };
 		12CB3B581C2AFB77001C9662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CB3B561C2AFB77001C9662 /* LaunchScreen.storyboard */; };
+		12CB3B691C2AFBED001C9662 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 12CB3B601C2AFBEC001C9662 /* bg.png */; };
+		12CB3B6A1C2AFBED001C9662 /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 12CB3B611C2AFBEC001C9662 /* enemy.png */; };
+		12CB3B6B1C2AFBED001C9662 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 12CB3B621C2AFBEC001C9662 /* example.png */; };
+		12CB3B6C1C2AFBED001C9662 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 12CB3B631C2AFBEC001C9662 /* ground.png */; };
+		12CB3B6D1C2AFBED001C9662 /* oop.psd in Resources */ = {isa = PBXBuildFile; fileRef = 12CB3B641C2AFBEC001C9662 /* oop.psd */; };
+		12CB3B6E1C2AFBED001C9662 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 12CB3B651C2AFBED001C9662 /* player.png */; };
+		12CB3B6F1C2AFBED001C9662 /* player1attackbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 12CB3B661C2AFBED001C9662 /* player1attackbtn.png */; };
+		12CB3B701C2AFBED001C9662 /* player2attackbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 12CB3B671C2AFBED001C9662 /* player2attackbtn.png */; };
+		12CB3B711C2AFBED001C9662 /* text-holder.png in Resources */ = {isa = PBXBuildFile; fileRef = 12CB3B681C2AFBED001C9662 /* text-holder.png */; };
+		12CB3B731C2B0312001C9662 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CB3B721C2B0312001C9662 /* player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		12CB3B541C2AFB77001C9662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12CB3B571C2AFB77001C9662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12CB3B591C2AFB77001C9662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12CB3B601C2AFBEC001C9662 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		12CB3B611C2AFBEC001C9662 /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy.png; sourceTree = "<group>"; };
+		12CB3B621C2AFBEC001C9662 /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
+		12CB3B631C2AFBEC001C9662 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		12CB3B641C2AFBEC001C9662 /* oop.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = oop.psd; sourceTree = "<group>"; };
+		12CB3B651C2AFBED001C9662 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		12CB3B661C2AFBED001C9662 /* player1attackbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player1attackbtn.png; sourceTree = "<group>"; };
+		12CB3B671C2AFBED001C9662 /* player2attackbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player2attackbtn.png; sourceTree = "<group>"; };
+		12CB3B681C2AFBED001C9662 /* text-holder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-holder.png"; sourceTree = "<group>"; };
+		12CB3B721C2B0312001C9662 /* player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +78,28 @@
 				12CB3B4F1C2AFB77001C9662 /* ViewController.swift */,
 				12CB3B511C2AFB77001C9662 /* Main.storyboard */,
 				12CB3B541C2AFB77001C9662 /* Assets.xcassets */,
+				12CB3B5F1C2AFBEC001C9662 /* oop-exercise */,
 				12CB3B561C2AFB77001C9662 /* LaunchScreen.storyboard */,
 				12CB3B591C2AFB77001C9662 /* Info.plist */,
+				12CB3B721C2B0312001C9662 /* player.swift */,
 			);
 			path = "player1=player2";
+			sourceTree = "<group>";
+		};
+		12CB3B5F1C2AFBEC001C9662 /* oop-exercise */ = {
+			isa = PBXGroup;
+			children = (
+				12CB3B601C2AFBEC001C9662 /* bg.png */,
+				12CB3B611C2AFBEC001C9662 /* enemy.png */,
+				12CB3B621C2AFBEC001C9662 /* example.png */,
+				12CB3B631C2AFBEC001C9662 /* ground.png */,
+				12CB3B641C2AFBEC001C9662 /* oop.psd */,
+				12CB3B651C2AFBED001C9662 /* player.png */,
+				12CB3B661C2AFBED001C9662 /* player1attackbtn.png */,
+				12CB3B671C2AFBED001C9662 /* player2attackbtn.png */,
+				12CB3B681C2AFBED001C9662 /* text-holder.png */,
+			);
+			path = "oop-exercise";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +160,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12CB3B6B1C2AFBED001C9662 /* example.png in Resources */,
 				12CB3B581C2AFB77001C9662 /* LaunchScreen.storyboard in Resources */,
+				12CB3B711C2AFBED001C9662 /* text-holder.png in Resources */,
+				12CB3B701C2AFBED001C9662 /* player2attackbtn.png in Resources */,
+				12CB3B6E1C2AFBED001C9662 /* player.png in Resources */,
+				12CB3B6D1C2AFBED001C9662 /* oop.psd in Resources */,
+				12CB3B6C1C2AFBED001C9662 /* ground.png in Resources */,
 				12CB3B551C2AFB77001C9662 /* Assets.xcassets in Resources */,
+				12CB3B6A1C2AFBED001C9662 /* enemy.png in Resources */,
+				12CB3B691C2AFBED001C9662 /* bg.png in Resources */,
 				12CB3B531C2AFB77001C9662 /* Main.storyboard in Resources */,
+				12CB3B6F1C2AFBED001C9662 /* player1attackbtn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12CB3B501C2AFB77001C9662 /* ViewController.swift in Sources */,
+				12CB3B731C2B0312001C9662 /* player.swift in Sources */,
 				12CB3B4E1C2AFB77001C9662 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
